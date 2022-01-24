@@ -28,5 +28,5 @@ public class Vclip extends Module
     protected final Setting<Integer> values =
             register(new NumberSetting<>("Value", 10, -15, 15));
     protected final Setting<Boolean> ccBypass =
-            register(new BooleanSetting("CC-Bypass", false));
+            register(new BooleanSetting("CC-Bypass", true));
 }
